@@ -7,16 +7,22 @@
 - RAM: ~10 GB
 - Disk: 105 GB
 
+## Users
+
+- Deployment user: `stack`
+- Standard user present: `lucas`
+- Privileged administration: `root`
+
 ## Network
 
-- Configuration: NAT + Host-Only
-- Purpose: access from host + internet access
+- Current topology: to be validated (`ip -br a`)
+- Intended usage: internet access + local host access for Horizon
 
-## User
+## Git / Documentation
 
-- Main user: stack (DevStack requirement)
-- Privileges: passwordless sudo
+- GitHub repository connected through SSH
+- Documentation and configuration managed from `/home/stack/openstack-devstack-lab-lg`
 
 ## Notes
 
-Environment prepared for DevStack deployment in a single-node architecture.
+This lab is based on DevStack in a single-node architecture for OpenStack learning and validation.
